@@ -1,0 +1,7 @@
+{
+  "name": "gemma-chat-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
