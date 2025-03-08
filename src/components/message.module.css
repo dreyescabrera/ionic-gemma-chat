@@ -1,0 +1,15 @@
+.message {
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.left {
+  margin-left: auto;
+}
+
+.right {
+  margin-right: auto;
+}
