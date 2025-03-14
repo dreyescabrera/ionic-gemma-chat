@@ -14,9 +14,7 @@ export const useGemmaMessages = () => {
   const [present, dismiss] = useIonLoading();
 
   const loadGemmaModel = async () => {
-    if (gemmaModel.isLoading) return;
-
-    present({
+    await present({
       message: "Loading Gemma model",
       htmlAttributes: { inert: true },
     });
@@ -26,7 +24,7 @@ export const useGemmaMessages = () => {
     } catch (error) {
       console.error("Failed to load Gemma model:", error);
     } finally {
-      await dismiss();
+      dismiss();
     }
   };
 

@@ -32,7 +32,6 @@ export const ChatPage = () => {
             <MessageSender onSend={sendMessageToGemma} />
           </div>
         </IonToolbar>
-        hola
         <div
           className="ion-padding"
           style={{
